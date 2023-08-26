@@ -1,0 +1,63 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.card-img-top {
+    height: 220px !important;
+}
+
+.carousel {
+    height: 500px !important;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.custom-build-size {
+    width: 400px !important;
+    vertical-align: middle;
+    margin-left: 110px;
+}
+
+#account-page {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    border-style: groove;
+}
+
+#profile-pic {
+    border-radius: 50%;
+    height: 100%;
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+#profile-text {
+    margin-top: 90px;
+    margin-right: 150px;
+    float: right;
+
+}
+
+.hover-zoom {
+    height: 100%;
+    width: 100%;
+    transition: all .25s ease;
+    cursor: pointer;
+}
+
+.hover-zoom:hover {
+    box-shadow: 2px 2px 2px 2px #9999;
+}
+
+.active {
+    color: white !important;
+}
